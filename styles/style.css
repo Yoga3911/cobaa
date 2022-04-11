@@ -1,0 +1,14 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    
+}
+
+.navbar {
+    background-color: #152647 !important
+}
