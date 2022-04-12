@@ -9,12 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/style5.css">
     <title>Produk</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light py-2 px-2">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><span class="logo" style="color: white;">Hi</span><span class="logo" style="color: #059BE5">Tech</span></a>
             <button class="navbar-toggler" style="filter: grayscale(1) invert(1);" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,21 +22,85 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="left-component d-flex me-0 align-items-center">
-                    <form>
+                    <form class="mx-4">
                         <div class="input-group">
-                            <span class="input-group-text" id="basic-addon1" style="background-color: white;"><img src="../icons/search.svg" alt="" height="20"></span>
-                            <input class="form-control ms-auto p-0 bd-highlight me-2" type="search" placeholder="Search" aria-label="Search">
+                            <span class="input-group-text px-2" id="basic-addon1" style="background-color: white;"><img src="../assets/icons/search.svg" alt="" height="20"></span>
+                            <input class="form-control ms-auto p-1 bd-highlight me-2" size="25" type="search" placeholder="Search" aria-label="Search">
                         </div>
                     </form>
-                    <img class="mx-1" height="28" src="../icons/favorite.svg" alt="favorite">
-                    <img class="mx-1" height="30" src="../icons/cart.svg" alt="cart">
-                    <img class="mx-1" height="36" src="../icons/person.svg" alt="person">
+                    <img height="24" src="../assets/icons/favorite.svg" alt="favorite">
+                    <img class="mx-4" height="26" src="../assets/icons/cart.svg" alt="cart">
+                    <img height="32" src="../assets/icons/person.svg" alt="person">
                 </div>
             </div>
         </div>
     </nav>
-    <script src="https://cdn.jsdelivr.net/gh/xcash/bootstrap-autocomplete@v2.3.7/dist/latest/bootstrap-autocomplete.min.js"></script>
+    <div class="container-fluid">
+        <div class="mycontainer">
+            <div class="row banner my-3">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 text-banner">
+                    <span id="banner-title">All Your Style</span>
+                    <br>
+                    <span id="banner-slogan">Are Here</span>
+                    <br>
+                    <span id="banner-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor molestias sit iusto, eum, incidunt fugiat sapiente corrupti ipsum doloremque sequi voluptatum nesciunt, voluptas officiis in enim mollitia corporis ut laboriosam sunt quos eius! Earum laborum sint rem, nihil ipsa dolorum.</span>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4" id="banner1-position">
+                    <img src="../assets/images/laptop1.svg" height="50%" alt="">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4" id="banner2-position">
+                    <img src="../assets/images/laptop2.svg" height="50%" alt="">
+                </div>
+            </div>
+            <div class="row content">
+                <div class="filter col col-md-2">
+                    <div class="row">
+                        <div class="col-2 mt-3">
+                            <img src="../assets/icons/filter.svg" alt="" height="80%">
+                        </div>
+                        <div class="col-9 mt-2">
+                            <span id="filter-text">Filter By</span>
+                        </div>
+                    </div>
+                    <div class="row filter-items mt-3">
+                        <div class="col-8">
+                            <span class="filter-item-text">Rating</span>
+                        </div>
+                        <div class="col-2">
+                            <img src="../assets/icons/arrow.svg" alt="" height="50%">
+                        </div>
+                    </div>
+                    <div class="row filter-items mt-3">
+                        <div class="col-8">
+                            <span class="filter-item-text">Brand</span>
+                        </div>
+                        <div class="col-2">
+                            <img src="../assets/icons/arrow.svg" alt="" height="50%">
+                        </div>
+                    </div>
+                    <div class="row filter-items mt-3">
+                        <div class="col-8">
+                            <span class="filter-item-text">Price</span>
+                        </div>
+                        <div class="col-2">
+                            <img src="../assets/icons/arrow.svg" alt="" height="50%">
+                        </div>
+                    </div>
+                    <div class="row filter-items mt-3">
+                        <div class="col-8">
+                            <span class="filter-item-text">Location</span>
+                        </div>
+                        <div class="col-2">
+                            <img src="../assets/icons/arrow.svg" alt="" height="50%">
+                        </div>
+                    </div>
+                </div>
+                <div class="items col col-md-10"></div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
 
 </html>
