@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/style.css">
+
+    <link rel="stylesheet" href="../styles/styles.css">
     <title>Produk</title>
 </head>
 
@@ -99,14 +100,41 @@
                     <div class="items-category mx-1"></div>
                     <div class="items-data row mx-1 py-3">
                         <?php for ($i = 0; $i < 9; $i++) : ?>
-                            <div class="card col-3 my-1" style="width: 18rem; height: 22rem;">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <!-- <div class='row my-2 py-3'>   -->
+                            <div class='col-md-4'>
+                                <div class="card" style="width: 16rem; height : 26rem;">
+                                    <img src="../assets/images/laptop1.jpg" class="card-img-top" alt="gambar.">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Laptop ASUS ROG</h5>
+                                        <p class="price">Rp 19.800.000</p>
+                                        <p class="price">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+                                        <div class="d-flex flex-row">
+                                            <div class="col-3 discount">10%</div>
+                                            <div class="col-9 real-price">22.000.000</div>
+                                        </div>
+                                        
+                                        <div class='coba'> </div> 
+
+                                        <div class="d-flex flex-row">
+                                            <img src="../assets/icons/location.svg" class="maps" alt="icon maps">
+                                            <div class="col-9 kota">Kota Semarang</div>
+                                            <img src="../assets/icons/love.svg" class="love" alt="icon maps">
+                                        </div>
+
+                                        <!-- <div class="d-flex flex-row">
+                                            <div class='row kota'>
+                                                <div class="col-2">10%</div>
+                                                <div class="col-8">Kota Semarang</div>
+                                                <div class="col-2">10%</div>
+                                            </div>
+                                        </div> -->
+                                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+
+                                    </div>
                                 </div>
                             </div>
+                            <!-- </div> -->
                         <?php endfor ?>
                     </div>
                 </div>
