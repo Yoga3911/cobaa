@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/style2.css">
+    <link rel="stylesheet" href="../styles/style.css">
     <title>Produk</title>
 </head>
 
@@ -96,10 +96,20 @@
                     </div>
                 </div>
                 <div class="items col col-md-10">
-                    <div class="items-category"></div>
-                    <div class="items-data"></div>
+                    <div class="items-category mx-1"></div>
+                    <div class="items-data row mx-1 py-3">
+                        <?php for ($i = 0; $i < 9; $i++) : ?>
+                            <div class="card col-3 my-1" style="width: 18rem; height: 22rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        <?php endfor ?>
+                    </div>
                 </div>
-
             </div>
         </div>
     </div>
