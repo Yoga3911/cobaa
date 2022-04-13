@@ -54,12 +54,22 @@
 
 .filter {
     background-color: #F9F9F9;
-    height: 600px;
+    height: 100vh;
 }
 
 .items {
+    height: 100vh;
+}
+
+.items-data {
+    background-color: red;
+    height: 120vh;
+}
+
+.items-category {
     background-color: blue;
-    height: 100px;
+    height: 10vh;
+    margin-bottom: 2vh;
 }
 
 #filter-text {
