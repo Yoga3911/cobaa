@@ -10,28 +10,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/style.css">
     <title>Produk</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-sm navbar-light bg-light py-2 px-2">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><span class="logo" style="color: white;">Hi</span><span class="logo" style="color: #059BE5">Tech</span></a>
-            <button class="navbar-toggler" style="filter: grayscale(1) invert(1);" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="left-component d-flex me-0 align-items-center">
-                    <form class="mx-4">
-                        <div class="input-group">
-                            <span class="input-group-text px-2" id="basic-addon1" style="background-color: white;"><img src="../assets/icons/search.svg" alt="" height="20"></span>
-                            <input class="form-control ms-auto p-1 bd-highlight me-2" size="25" type="search" placeholder="Search" aria-label="Search">
-                        </div>
-                    </form>
-                    <img height="24" src="../assets/icons/favorite.svg" alt="favorite">
-                    <img class="mx-4" height="26" src="../assets/icons/cart.svg" alt="cart">
-                    <img height="32" src="../assets/icons/person.svg" alt="person">
+        <div class="container-fluid row">
+            <div class="title1 col-12 col-sm-3 col-md-5 col-lg-7">
+                <a class="navbar-brand" href="#"><span class="logo" style="color: white;">Hi</span><span class="logo" style="color: #059BE5">Tech</span></a>
+                <button class="navbar-toggler" style="filter: grayscale(1) invert(1);" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="title2 col-12 col-sm-9 col-md-7 col-lg-5">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <form class="mx-4">
+                            <div class="input-group">
+                                <span class="input-group-text px-2" id="basic-addon1" style="background-color: white;"><img src="../assets/icons/search.svg" alt="" height="20"></span>
+                                <input class="form-control ms-auto p-1 bd-highlight me-2" size="25" type="search" placeholder="Search" aria-label="Search">
+                            </div>
+                        </form>
+                        <img height="24" src="../assets/icons/favorite.svg" alt="favorite">
+                        <img class="mx-4" height="26" src="../assets/icons/cart.svg" alt="cart">
+                        <img height="32" src="../assets/icons/person.svg" alt="person">
+                    </div>
                 </div>
             </div>
         </div>
@@ -102,21 +106,18 @@
                         <?php for ($i = 0; $i < 9; $i++) : ?>
                             <!-- <div class='row my-2 py-3'>   -->
                             <div class='col-md-4'>
-                                <div class="card" style="width: 16rem; height : 26rem;">
+                                <div class="card" style="width: 16rem; height : 22rem;">
                                     <img src="../assets/images/laptop1.jpg" class="card-img-top" alt="gambar.">
                                     <div class="card-body">
                                         <h5 class="card-title">Laptop ASUS ROG</h5>
                                         <p class="price">Rp 19.800.000</p>
-                                        <p class="price">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 
-                                        <div class="d-flex flex-row">
+                                        <div class="d-flex flex-row mt-4">
                                             <div class="col-3 discount">10%</div>
                                             <div class="col-9 real-price">22.000.000</div>
                                         </div>
-                                        
-                                        <div class='coba'> </div> 
 
-                                        <div class="d-flex flex-row">
+                                        <div class="d-flex flex-row mt-3">
                                             <img src="../assets/icons/location.svg" class="maps" alt="icon maps">
                                             <div class="col-9 kota">Kota Semarang</div>
                                             <img src="../assets/icons/love.svg" class="love" alt="icon maps">
