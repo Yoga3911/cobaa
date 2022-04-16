@@ -101,7 +101,20 @@
                     </div>
                 </div>
                 <div class="items col col-md-10">
-                    <div class="items-category mx-1"></div>
+                    <div class="items-category mx-1">
+                        <div class = "d-flex flex-row justify-content-between">
+                            <div class = "box d-flex flex-row">
+                                <div class="p1">All</div>
+                                <div class="p1">Best Seller</div>
+                                <div class="p1">Discount</div>
+                            </div>
+                            <div class = "d-flex flex-row">
+                                <div class="p2">1/100</div>
+                                <div class="p3"><</div>
+                                <div class="p4">></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="items-data row mx-1 py-3">
                         <?php for ($i = 0; $i < 9; $i++) : ?>
                             <!-- <div class='row my-2 py-3'>   -->

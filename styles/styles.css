@@ -71,9 +71,50 @@ body {
 }
 
 .items-category {
-    background-color: blue;
+    background-color: #F9F9F9;
     height: 10vh;
     margin-bottom: 2vh;
+}
+
+.box {
+    background-color: #ececec;
+    margin: 20px 40px;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+}
+
+.p1 {
+    color: black;
+    float: left;
+    padding: 8px 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.p2 {
+    color: black;
+    float: left;
+    padding: 24px 70px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.p3 {
+    color: rgb(164, 164, 164);
+    float: left;
+    text-decoration: none;
+    padding: 8px 30px;
+    font-size: 5vh;
+    background-color: rgb(212, 212, 212);
+}
+
+.p4 {
+    color: black;
+    float: left;
+    padding: 8px 30px;
+    text-decoration: none;
+    font-size: 5vh;
+    background-color: rgb(170, 170, 170);
 }
 
 #filter-text {
