@@ -110,8 +110,12 @@
                             </div>
                             <div class = "d-flex flex-row">
                                 <div class="p2">1/100</div>
-                                <div class="p3"><</div>
-                                <div class="p4">></div>
+                                <div class="p3">
+                                    <img src="../assets/icons/left-arrow.png" style="width: 1rem; height : 1rem;" alt=""> 
+                                </div>
+                                <div class="p4">
+                                    <img src="../assets/icons/right-arrow.png" style="width: 1rem; height : 1rem;" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
