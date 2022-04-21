@@ -15,31 +15,33 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light py-2 px-2">
-        <div class="container-fluid row">
-            <div class="title1 col-12 col-sm-3 col-md-5 col-lg-7">
-                <a class="navbar-brand" href="#"><span class="logo" style="color: white;">Hi</span><span class="logo" style="color: #059BE5">Tech</span></a>
-                <button class="navbar-toggler" style="filter: grayscale(1) invert(1);" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            <div class="title2 col-12 col-sm-9 col-md-7 col-lg-5 mx-5">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <div class="d-flex align-items-center justify-content-end">
-                        <form class="mx-4">
-                            <div class="input-group">
-                                <span class="input-group-text px-2" id="basic-addon1" style="background-color: white;"><img src="../assets/icons/search.svg" alt="" height="20"></span>
-                                <input class="form-control ms-auto p-1 bd-highlight me-2" size="25" type="search" placeholder="Search" aria-label="Search">
-                            </div>
-                        </form>
-                        <img height="24" src="../assets/icons/favorite.svg" alt="favorite">
-                        <img class="mx-4" height="26" src="../assets/icons/cart.svg" alt="cart">
-                        <img height="32" src="../assets/icons/person.svg" alt="person">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light py-2 px-2">
+            <div class="container-fluid row">
+                <div class="title1 col-12 col-sm-3 col-md-5 col-lg-7">
+                    <a class="navbar-brand" href="#"><span class="logo" style="color: white;">Hi</span><span class="logo" style="color: #059BE5">Tech</span></a>
+                    <button class="navbar-toggler" style="filter: grayscale(1) invert(1);" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="title2 col-12 col-sm-9 col-md-7 col-lg-5 mx-5">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <form class="mx-4">
+                                <div class="input-group">
+                                    <span class="input-group-text px-2" id="basic-addon1" style="background-color: white;"><img src="../assets/icons/search.svg" alt="" height="20"></span>
+                                    <input class="form-control ms-auto p-1 bd-highlight me-2" size="25" type="search" placeholder="Search" aria-label="Search">
+                                </div>
+                            </form>
+                            <img height="24" src="../assets/icons/favorite.svg" alt="favorite">
+                            <img class="mx-4" height="26" src="../assets/icons/cart.svg" alt="cart">
+                            <img height="32" src="../assets/icons/person.svg" alt="person">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <div class="container-fluid">
         <div class="mycontainer">
             <div class="row banner my-3">
@@ -101,19 +103,23 @@
                     </div>
                 </div>
                 <div class="items col col-md-10">
-                    <div class="items-category mx-1">
-                        <div class = "d-flex flex-row justify-content-between">
-                            <div class = "box d-flex flex-row">
+                    <div class="px-3 items-category d-flex align-items-center justify-content-between">
+                        <div class="d-flex">
+                            <div class="box d-flex align-items-center py-1">
                                 <div class="p1">All</div>
                                 <div class="p1">Best Seller</div>
                                 <div class="p1">Discount</div>
                             </div>
-                            <div class = "d-flex flex-row">
-                                <div class="p2">1/100</div>
-                                <div class="p3">
-                                    <img src="../assets/icons/left-arrow.png" style="width: 1rem; height : 1rem;" alt=""> 
+                        </div>
+                        <div class="d-flex">
+                            <div class="mx-2">
+                                <div class="p2"><span style="color: red;">1</span>/100</div>
+                            </div>
+                            <div class="d-flex ">
+                                <div class="p3 d-flex align-items-center px-2 py-1">
+                                    <img src="../assets/icons/left-arrow.png" style="width: 1rem; height : 1rem;" alt="">
                                 </div>
-                                <div class="p4">
+                                <div class="p4 d-flex align-items-center px-2 py-1">
                                     <img src="../assets/icons/right-arrow.png" style="width: 1rem; height : 1rem;" alt="">
                                 </div>
                             </div>
@@ -121,7 +127,6 @@
                     </div>
                     <div class="items-data row mx-1 py-3">
                         <?php for ($i = 0; $i < 9; $i++) : ?>
-                            <!-- <div class='row my-2 py-3'>   -->
                             <div class='col-md-4'>
                                 <div class="card" style="width: 16rem; height : 22rem;">
                                     <img src="../assets/images/laptop1.jpg" class="card-img-top" alt="gambar.">
@@ -139,20 +144,9 @@
                                             <div class="col-9 kota">Kota Semarang</div>
                                             <img src="../assets/icons/love.svg" class="love" alt="icon maps">
                                         </div>
-
-                                        <!-- <div class="d-flex flex-row">
-                                            <div class='row kota'>
-                                                <div class="col-2">10%</div>
-                                                <div class="col-8">Kota Semarang</div>
-                                                <div class="col-2">10%</div>
-                                            </div>
-                                        </div> -->
-                                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-
                                     </div>
                                 </div>
                             </div>
-                            <!-- </div> -->
                         <?php endfor ?>
                     </div>
                 </div>
